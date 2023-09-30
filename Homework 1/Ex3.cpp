@@ -5,8 +5,8 @@ struct Node
     Node *nextNode;
 };
 Bạn hãy viết hàm Node* addLastNode(Node *head, int value)  để thêm một phần tử có giá trị bằng value
- vào cuối danh sách liên kết hiện tại (phần tử đầu tiên của danh sách hiện tại là head
-) . Hàm trả lại danh sách liên kết mới.*/
+ vào cuối danh sách liên kết hiện tại (phần tử đầu tiên của danh sách hiện tại là head) . 
+ Hàm trả lại danh sách liên kết mới.*/
 
 Node* addLastNode(Node *head, int value)
 {
